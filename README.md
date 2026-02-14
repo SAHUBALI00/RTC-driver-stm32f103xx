@@ -1,12 +1,3 @@
-🚀 Overview
-The goal of this project was to implement a robust I2C interface from scratch. By manipulating the STM32 registers directly, this driver provides an efficient way to keep track of time in embedded applications. The development process involved deep-dive signal analysis to ensure protocol timing accuracy.
-Gemini said
-To make your GitHub repository look professional, a well-structured README.md is essential. It serves as the "face" of your project, explaining not just what the code does, but how you solved the engineering challenges behind it.
-
-Here is a complete, copy-paste-ready README.md for your project.
-
-STM32 Bare-Metal I2C Driver for DS1307 RTC
-A lightweight, register-level C driver for the DS1307 Real-Time Clock, developed for the STM32F103 "Blue Pill." This project demonstrates low-level I2C communication without the use of HAL or Standard Peripheral Libraries.
 
 🚀 Overview
 The goal of this project was to implement a robust I2C interface from scratch. By manipulating the STM32 registers directly, this driver provides an efficient way to keep track of time in embedded applications. The development process involved deep-dive signal analysis to ensure protocol timing accuracy.
@@ -37,3 +28,5 @@ RTC Module: DS1307 (5V VCC recommended)
 Pull-up Resistors: 4.7kΩ on SCL (PB6) and SDA (PB7)
 
 Logic Analyzer: (Optional) for VCD file generation and signal verification.
+
+Also , i have intergrate my self written code for UART for debugging and displaying the results.
